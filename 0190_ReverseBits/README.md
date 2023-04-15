@@ -1,5 +1,6 @@
 # 190. Reverse Bits
 ## _1
+```c
 for(int i = 31;  i >= 0;  i--) {  <br/>
     // A B C D E  <br/>
     uint32_t tem = n << i;  // (D E) 0 0 0  <br/>
@@ -7,6 +8,7 @@ for(int i = 31;  i >= 0;  i--) {  <br/>
     tem <<= i;              // 0 (D) 0 0 0  <br/>
     res ^= tem;             // (E D) 0 0 0  <br/>
 } <br/>
+```
 
 << >> << <br/>
 4  4  4   E 0 0 0 0 <br/>
