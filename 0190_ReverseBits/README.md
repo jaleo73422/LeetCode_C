@@ -21,50 +21,60 @@ for(int i = 31;  i >= 0;  i--) {
 ```
 
 ## _2
-for(int i = 0; i < 32; i++) { <br/>
-    // A B C D E <br/>
-    n >>= i;         // 0 A B C D <br/>
-    n &= 1;          // 0 0 0 0 D <br/>
-    n <<= (31 - i);  // 0 D 0 0 0 <br/>
-    res |= n;        // E C 0 0 0 <br/>
-} <br/>
+```c
+for(int i = 0; i < 32; i++) {
+    // A B C D E
+    n >>= i;         // 0 A B C D
+    n &= 1;          // 0 0 0 0 D
+    n <<= (31 - i);  // 0 D 0 0 0
+    res |= n;        // E C 0 0 0
+}
+```
 
 ## _3
-// A B C D E <br/>
-if(n  & 1)  res = 1;          // 0 0 0 0 E <br/>
+```c
+// A B C D E
+if(n  & 1)  res = 1;          // 0 0 0 0 E
 
-for(int i = 1; i < 32; i++) { <br/>
-    res <<= 1;                // 0 0 0 E 0 <br/>
-    if((n >> i) & 1)  res++;  // 0 0 0 0 D -> 0 0 0 E D <br/>
+for(int i = 1; i < 32; i++) {
+    res <<= 1;                // 0 0 0 E 0
+    if((n >> i) & 1)  res++;  // 0 0 0 0 D -> 0 0 0 E D
 }
+```
 
 ## _4
-uint32_t res = 0; <br/>
-for (int i = 0; i < 32; i++) { <br/>
-    // A B C D E <br/>
-    res <<= 1;     //    0 0 0 E 0 <br/>
-    res |= n & 1;  // | (0 0 0 0 D) = 0 0 0 E D <br/>
-    n >>= 1;       // 0 0 A B C <br/>
+```
+uint32_t res = 0;
+for (int i = 0; i < 32; i++) {
+    // A B C D E
+    res <<= 1;     //    0 0 0 E 0
+    res |= n & 1;  // | (0 0 0 0 D) = 0 0 0 E D
+    n >>= 1;       // 0 0 A B C
 }
+```
 
 ## _5 mask
-do every 4 bits <br/>
+```c
+do every 4 bits
 
-for (int i = 0; i < 8; i++) { <br/>
-    // ... A B C D E F G H <br/>
-    tem = lookup[n & 0xF];  // 0 ...  0 0 0 0 D C B A <br/>
-    res <<= 4;              // 0 ...  H G F E 0 0 0 0 <br/>
-    res |= tem;             // 0 ...  H G F E D C B A <br/>
+for (int i = 0; i < 8; i++) {
+    // ... A B C D E F G H
+    tem = lookup[n & 0xF];  // 0 ...  0 0 0 0 D C B A
+    res <<= 4;              // 0 ...  H G F E 0 0 0 0
+    res |= tem;             // 0 ...  H G F E D C B A
 
-    n = n >> 4; <br/>
-} <br/>
+    n = n >> 4;
+}
+```
 
-all condition of 4 bits n = { <br/>
-    0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, <br/>
-    0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F <br/>
-}; <br/>
+```
+all condition of 4 bits n = {
+    0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
+    0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F
+};
 
-reverse of 4 bits n = { <br/>
-    0x00, 0x08, 0x04, 0x0C, 0x02, 0x0A, 0x06, 0x0E, <br/>
-    0x01, 0x09, 0x05, 0x0D, 0x03, 0x0B, 0x07, 0x0F <br/>
-}; <br/>
+reverse of 4 bits n = {
+    0x00, 0x08, 0x04, 0x0C, 0x02, 0x0A, 0x06, 0x0E,
+    0x01, 0x09, 0x05, 0x0D, 0x03, 0x0B, 0x07, 0x0F
+};
+```
