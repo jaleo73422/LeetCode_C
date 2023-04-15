@@ -1,22 +1,24 @@
 # 190. Reverse Bits
 ## _1
 ```c
-for(int i = 31;  i >= 0;  i--) {  <br/>
-    // A B C D E  <br/>
-    uint32_t tem = n << i;  // (D E) 0 0 0  <br/>
-    tem >>= 31;             // 0 0 0 0 (D)  <br/>
-    tem <<= i;              // 0 (D) 0 0 0  <br/>
-    res ^= tem;             // (E D) 0 0 0  <br/>
-} <br/>
+for(int i = 31;  i >= 0;  i--) {
+    // A B C D E
+    uint32_t tem = n << i;  // (D E) 0 0 0
+    tem >>= 31;             // 0 0 0 0 (D)
+    tem <<= i;              // 0 (D) 0 0 0
+    res ^= tem;             // (E D) 0 0 0
+}
 ```
 
-<< >> << <br/>
-4  4  4   E 0 0 0 0 <br/>
-3  4  3   0 D 0 0 0 <br/>
-2  4  2   0 0 C 0 0 <br/>
-1  4  1   0 0 0 B 0 <br/>
-0  4  0   0 0 0 0 A <br/>
-        ^) <br/>
+```cmd
+<< >> <<
+4  4  4   E 0 0 0 0
+3  4  3   0 D 0 0 0
+2  4  2   0 0 C 0 0
+1  4  1   0 0 0 B 0
+0  4  0   0 0 0 0 A
+        ^)
+```
 
 ## _2
 for(int i = 0; i < 32; i++) { <br/>
