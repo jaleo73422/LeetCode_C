@@ -3,6 +3,7 @@
 ## Order list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
@@ -28,6 +29,7 @@
 ### Pointers
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers 
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
 
 ### Recursion
@@ -39,6 +41,7 @@
 ### String
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers 
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 
 - [Algorithm - Theory](https://hackmd.io/HNTS1fpvRtqjpGlUiQEV3g) <br/>
