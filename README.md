@@ -6,6 +6,7 @@
 | 0020 | Valid Parentheses | Easy | 1) Stack|
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
+| 0061 | Rotate List | Medium | 1)* 2) |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
@@ -34,6 +35,10 @@
 | --- | :------ | :--------- | :------- |
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
+
+## Linked list
+| No. | Problem | Difficulty | Solution |
+| 0061 | Rotate List | Medium | 1)* 2) |
 
 ### Pointers
 | No. | Problem | Difficulty | Solution |
