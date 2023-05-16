@@ -4,6 +4,7 @@
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0020 | Valid Parentheses | Easy | 1) Stack|
+| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* |
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
 | 0061 | Rotate List | Medium | 1)* 2) |
@@ -38,6 +39,7 @@
 
 ## Linked list
 | No. | Problem | Difficulty | Solution |
+| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* |
 | 0061 | Rotate List | Medium | 1)* 2) |
 
 ### Pointers
