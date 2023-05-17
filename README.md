@@ -13,6 +13,7 @@
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
+| 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
 
 
 ## Topic list
@@ -30,6 +31,7 @@
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
+| 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
 
 ## Interval
 | No. | Problem | Difficulty | Solution |
@@ -39,6 +41,7 @@
 
 ## Linked list
 | No. | Problem | Difficulty | Solution |
+| --- | :------ | :--------- | :------- |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* |
 | 0061 | Rotate List | Medium | 1)* 2) |
 

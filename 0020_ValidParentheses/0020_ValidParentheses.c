@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 bool isValid(char* s) {
     int sSize = strlen(s);
