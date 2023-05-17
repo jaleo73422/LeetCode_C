@@ -4,16 +4,17 @@
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0020 | Valid Parentheses | Easy | 1) Stack|
-| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* |
+| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
-| 0061 | Rotate List | Medium | 1)* 2) |
+| 0061 | Rotate List | Medium | 1)* 2) Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
+| 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
 
 ## Topic list
@@ -42,8 +43,9 @@
 ## Linked list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
-| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* |
-| 0061 | Rotate List | Medium | 1)* 2) |
+| 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
+| 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
 ### Pointers
 | No. | Problem | Difficulty | Solution |
@@ -60,7 +62,8 @@
 ### Stack
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
-| 0020 | Valid Parentheses | Easy | 1) Stack|
+| 0020 | Valid Parentheses | Easy | 1) Stack |
+| 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
 ### String
 | No. | Problem | Difficulty | Solution |
