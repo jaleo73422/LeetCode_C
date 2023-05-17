@@ -6,26 +6,27 @@ struct ListNode {
 };
 
 struct ListNode* swapPairs(struct ListNode* head) {
-  if(!head || !(head -> next))  return head;
+	if(!head || !(head -> next))  return head;
 
-  struct ListNode dummy;
-  struct ListNode* pre = &dummy;
-  pre -> next = head;
+	struct ListNode dummy;
+	struct ListNode* pre = &dummy;
+	
+	pre -> next = head;
 
-  while(pre -> next != NULL && pre -> next -> next != NULL) {
-    struct ListNode* first = pre -> next;
-    struct ListNode* second = first -> next;
-    
-    pre -> next = second;
-    first -> next = second -> next;
-    second -> next = first;
+	while(pre -> next != NULL && pre -> next -> next != NULL) {
+		struct ListNode* first = pre -> next;
+		struct ListNode* second = first -> next;
 
-    pre = first;
-  }
+		pre -> next = second;
+		first -> next = second -> next;
+		second -> next = first;
 
-  return dummy.next;
+		pre = first;
+	}
+
+	return dummy.next;
 }
 
 int main() {
-   return 0;
+	return 0;
 }

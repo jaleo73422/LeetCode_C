@@ -8,32 +8,34 @@ struct ListNode {
 struct ListNode* rotateRight(struct ListNode* head, int k){
     if(!head)  return NULL;
 
-    struct ListNode* tem = head;
-    struct ListNode* new = head;
-    struct ListNode* last;
+    struct ListNode* last = head;
+    struct ListNode* new_head = head;
+    struct ListNode* secLast;
     int llSize = 0;
     int rotateTime;
 
-    while(tem != NULL) {
+    while(last != NULL) {
         llSize++;
-        tem = tem -> next;
+        last = last -> next;
     }
 
     rotateTime = k % llSize;
 
     for(int i = 0; i < rotateTime; i++) {
-        last = new;
-        tem = new -> next;
-        while(tem -> next != NULL) {
+        secLast = new_head;
+        last = new_head -> next;
+
+        while(last -> next != NULL) {
+            secLast = secLast -> next;
             last = last -> next;
-            tem = tem -> next;
         }
-        tem -> next = new;
-        new = tem;
-        last -> next = NULL;
+
+        last -> next = new_head;
+        new_head = last;
+        secLast -> next = NULL;
     }
 
-    return new;
+    return new_head;
 }
 
 int main() {

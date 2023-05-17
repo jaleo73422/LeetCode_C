@@ -9,15 +9,16 @@ struct ListNode* swapPairs(struct ListNode* head) {
     struct ListNode* current = head;
     
     while(current != NULL && current -> next != NULL) {
-      int tem = current -> val;
-      current -> val = current -> next -> val;
-      current -> next -> val = tem;
-      current = current -> next -> next;
+        int tem = current -> val;
+		
+        current -> val = current -> next -> val;
+        current -> next -> val = tem;
+        current = current -> next -> next;
     }
 
     return head;
 }
 
 int main() {
-   return 0;
+    return 0;
 }

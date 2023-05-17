@@ -27,14 +27,25 @@ for(int i = 0; i < 32; i++) {
     n >>= i;         // 0 A B C D
     n &= 1;          // 0 0 0 0 D
     n <<= (31 - i);  // 0 D 0 0 0
-    res |= n;        // E C 0 0 0
+    res |= n;        // E D 0 0 0
+    // or res ^= n;
 }
+```
+
+```
+
+          E 0 0 0 0
+          0 D 0 0 0
+          0 0 C 0 0
+          0 0 0 B 0
+          0 0 0 0 A
+|) or ^)
 ```
 
 ## _3
 ```c
 // A B C D E
-if(n  & 1)  res = 1;          // 0 0 0 0 E
+if(n & 1)  res = 1;          // 0 0 0 0 E
 
 for(int i = 1; i < 32; i++) {
     res <<= 1;                // 0 0 0 E 0
@@ -43,25 +54,27 @@ for(int i = 1; i < 32; i++) {
 ```
 
 ## _4
-```
+```c
 uint32_t res = 0;
 for (int i = 0; i < 32; i++) {
     // A B C D E
-    res <<= 1;     //    0 0 0 E 0
-    res |= n & 1;  // | (0 0 0 0 D) = 0 0 0 E D
+    res <<= 1;     //    0 0 0 0 E -> 0 0 0 E 0
+    res |= n & 1;  //              | (0 0 0 0 D) = 0 0 0 E D
+    // or res ^= n & 1;
     n >>= 1;       // 0 0 A B C
 }
 ```
 
 ## _5 mask
 ```c
-do every 4 bits
+// do every 4 bits
 
 for (int i = 0; i < 8; i++) {
     // ... A B C D E F G H
     tem = lookup[n & 0xF];  // 0 ...  0 0 0 0 D C B A
     res <<= 4;              // 0 ...  H G F E 0 0 0 0
     res |= tem;             // 0 ...  H G F E D C B A
+    // or res ^= tem;
 
     n = n >> 4;
 }

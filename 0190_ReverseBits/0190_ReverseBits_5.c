@@ -6,11 +6,11 @@ uint32_t reverseBits(uint32_t n) {
         0x00, 0x08, 0x04, 0x0C, 0x02, 0x0A, 0x06, 0x0E,
         0x01, 0x09, 0x05, 0x0D, 0x03, 0x0B, 0x07, 0x0F
     };
+    
     uint32_t res = 0;
     
-    for (int i = 0; i < 8; i++) {
+    for(int i = 0; i < 8; i++) {
         res = (res << 4) | lookup[n & 0xF];
-
         n = n >> 4;
     }
     
