@@ -13,6 +13,7 @@
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
+| 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
@@ -45,6 +46,7 @@
 | --- | :------ | :--------- | :------- |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
 ### Pointers
