@@ -10,6 +10,7 @@
 | 0057 | Insert Interval | Medium | 1)* |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
+| 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
@@ -17,6 +18,7 @@
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
+| 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
 
@@ -31,27 +33,29 @@
 | --- | :------ | :--------- | :------- |
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
 
-## Hash table
+### Hash table
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
 
-## Interval
+### Interval
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
 
-## Linked list
+### Linked list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
+| 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
-## Math
+### Math
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0050 | Pow(x, n) | Medium | 1)* Square and multiply algorithm <br/> 2)* |
@@ -82,6 +86,10 @@
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers 
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 
+## To do
+| No. | Problem | Difficulty | Solution |
+| --- | :------ | :--------- | :------- |
+| 0142 | Linked List Cycle II | Medium | 2) Hash table |
 
 - [Algorithm - Theory](https://hackmd.io/HNTS1fpvRtqjpGlUiQEV3g) <br/>
 - [NeetCode YouTube](https://www.youtube.com/c/NeetCode/playlists) <br/>
