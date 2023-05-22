@@ -3,6 +3,7 @@
 ## Order list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0019 | Remove Nth Node From End of List | Easy | 1)* 2)* |
 | 0020 | Valid Parentheses | Easy | 1) Stack|
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0050 | Pow(x, n) | Medium | 1)* Square and multiply algorithm <br/> 2)* |
@@ -48,6 +49,7 @@
 ### Linked list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0019 | Remove Nth Node From End of List | Easy | 1)* 2)* |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
