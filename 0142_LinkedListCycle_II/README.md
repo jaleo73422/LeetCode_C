@@ -1,6 +1,6 @@
 # 142. Linked List Cycle II
 
-## _1 
+## _1 Floyd Cycle Detection Algorithm
 https://ithelp.ithome.com.tw/articles/10223721 <br/>
 
 ```c
