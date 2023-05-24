@@ -1,6 +1,6 @@
 # 287. Find the Duplicate Number
 
-## 1 Floyd Cycle Detection Algorithm
+## _1 Floyd Cycle Detection Algorithm
 
 ```
 nums[] = {3, 1, 3, 4, 2}
