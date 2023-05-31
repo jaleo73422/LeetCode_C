@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-int getSum(int a, int b){
-    while(b!=0){
-        int carry = (unsigned int) (a & b) << 1;
+int getSum(int a, int b) {
+    while(b != 0) {
+        int carry = (unsigned int) (a & b);  // carry value
         a = a ^ b;  // add
-        b = carry;
+        b = carry << 1;  // carry
     }
-
 
     return a;
 }
 
-int main() {
+void main() {
     // example 1
     // output = 3
     // int a = 1;
@@ -23,6 +22,4 @@ int main() {
     int b = 3;
 
     printf("%d ", getSum(a, b));
-
-    return 0;
 }

@@ -14,23 +14,21 @@ void reverseString(char* s, int sSize) {
     helper(s, 0, sSize - 1);
 }
 
-int main() {
+void main() {
     // example 1
     // output = olleh
     // int n = 5;
-    // char s[n] = "hello";
+    // char s[] = "hello";
 
     // example 2
     // output = hannaH
     int n = 6;
-    char s[n] = "Hannah";
+    char s[] = "Hannah";
 
     reverseString(s, n);
-    for(int i = 0; i < n; i++) {
+
+    for(int i = 0; i < n; i++)
         printf("%c", s[i]);
-    }
     
     printf("\n");
-
-    return 0;
 }
