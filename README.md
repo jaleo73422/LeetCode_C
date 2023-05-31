@@ -10,6 +10,7 @@
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0136 | Single Number | Easy | 1)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
@@ -73,6 +74,7 @@
 | 0019 | Remove Nth Node From End of List | Easy | 1)* <br/> 2)* Floyd Cycle Detection Algorithm |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0328 | Odd Even Linked List | Medium | 1)* 2)* Linked list |
