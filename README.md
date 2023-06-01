@@ -10,6 +10,7 @@
 | 0056 | Merge Intervals | Medium | 1)* <br/> 2)* |
 | 0057 | Insert Interval | Medium | 1)* |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
+| 0074 | Search a 2D Matrix | Medium | 1)* <br/> 2)* Binary search |
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0136 | Single Number | Easy | 1)* Bitwise |
@@ -39,6 +40,7 @@
 ### Binary search
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0074 | Search a 2D Matrix | Medium | 1)* <br/> 2)* Binary search |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 
 ### Bitwise
