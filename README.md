@@ -13,11 +13,13 @@
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0136 | Single Number | Easy | 1)* Bitwise |
+| 0137 | 137. Single Number II | Medium | 1)* 2)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
+| 0260 | Single Number III | Medium | 1)* 2)* Bitwise |
 | 0268 | Missing Number | Easy | 1)* Bitwise <br/> 2)*|
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0328 | Odd Even Linked List | Medium | 1)* 2)* Linked list |
@@ -43,8 +45,10 @@
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
 | 0136 | Single Number | Easy | 1)* Bitwise |
+| 0137 | Single Number II | Medium | 1)* 2)* Bitwise |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise |
+| 0260 | Single Number III | Medium | 1)* 2)* Bitwise |
 | 0268 | Missing Number | Easy | 1)* Bitwise <br/> 2)* |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
@@ -117,9 +121,12 @@
 ## To do
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0137 | 137. Single Number II | Medium | 3) Bitwise ([this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/137.Single-Number-II/137.Single-Number-II_v2.cpp)) |
 | 0142 | Linked List Cycle II | Medium | 2) Hash table |
+| 0260 | Single Number III | Medium | 3) Bitwise [this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/260.Single-Number-III/260.Single-Number-III.cpp) |
 
 - [Algorithm - Theory](https://hackmd.io/HNTS1fpvRtqjpGlUiQEV3g) <br/>
 - [NeetCode YouTube](https://www.youtube.com/c/NeetCode/playlists) <br/>
 - [wisdompeak LeetCode in GitHub](https://github.com/wisdompeak/LeetCode) <br/>
 - [JIAKAOBO LeetCode](https://www.jiakaobo.com/leetcode.html) <br/>
+- [Not In My Back Yard](https://home.gamer.com.tw/profile/index_creation.php?owner=inversion&kind1=0&view_type=0&page=1) <br/>
