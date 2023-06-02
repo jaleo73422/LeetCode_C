@@ -129,6 +129,9 @@
 | 0142 | Linked List Cycle II | Medium | 2) Hash table |
 | 0260 | Single Number III | Medium | 3) Bitwise [this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/260.Single-Number-III/260.Single-Number-III.cpp) |
 
+## Attempted
+373
+
 - [Algorithm - Theory](https://hackmd.io/HNTS1fpvRtqjpGlUiQEV3g) <br/>
 - [NeetCode YouTube](https://www.youtube.com/c/NeetCode/playlists) <br/>
 - [wisdompeak LeetCode in GitHub](https://github.com/wisdompeak/LeetCode) <br/>
