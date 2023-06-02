@@ -17,6 +17,7 @@
 | 0136 | Single Number | Easy | 1)* Bitwise |
 | 0137 | 137. Single Number II | Medium | 1)* 2)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
+| 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise |
@@ -84,6 +85,7 @@
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
+| 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0328 | Odd Even Linked List | Medium | 1)* 2)* Linked list |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
