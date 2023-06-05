@@ -18,6 +18,7 @@
 | 0137 | 137. Single Number II | Medium | 1)* 2)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
+| 0148 |  | Medium | 1) 2)* 3) 4)* 5)* Linked list |
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise |
@@ -35,6 +36,7 @@
 | 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
+| 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
 
 ## Topic list
@@ -58,6 +60,7 @@
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
+| 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
 ### Dynamic Programmin
 | No. | Problem | Difficulty | Solution |
@@ -86,6 +89,7 @@
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
+| 0148 |  | Medium | 1) 2)* 3) 4)* 5)* Linked list |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0328 | Odd Even Linked List | Medium | 1)* 2)* Linked list |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
@@ -124,6 +128,11 @@
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers 
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 4)* Hash table <br/> 3) Array |
 
+## Easy
+| No. | Problem | Difficulty | Solution |
+| --- | :------ | :--------- | :------- |
+| 0461 | Hamming Distance | Easy | 1)* Bitwise |
+
 ## To do
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
@@ -136,6 +145,10 @@
 
 - [Algorithm - Theory](https://hackmd.io/HNTS1fpvRtqjpGlUiQEV3g) <br/>
 - [NeetCode YouTube](https://www.youtube.com/c/NeetCode/playlists) <br/>
-- [wisdompeak LeetCode in GitHub](https://github.com/wisdompeak/LeetCode) <br/>
+- [wisdompeak - GitHub](https://github.com/wisdompeak/LeetCode) <br/>
+- [Huifeng Guan - YouTube](https://www.youtube.com/@wisdompeak) <br/>
 - [JIAKAOBO LeetCode](https://www.jiakaobo.com/leetcode.html) <br/>
 - [Not In My Back Yard](https://home.gamer.com.tw/profile/index_creation.php?owner=inversion&kind1=0&view_type=0&page=1) <br/>
+- [Huahua’s Tech Road](https://zxi.mytechroad.com/blog/) <br/>
+- [walkccc - GitHub](https://github.com/walkccc/LeetCode) <br/>
+- [walkccc](https://walkccc.me/LeetCode/) <br/>
