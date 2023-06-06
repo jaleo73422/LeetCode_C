@@ -36,6 +36,7 @@
 | 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
+| 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
 
@@ -60,6 +61,7 @@
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
+| 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
 ### Dynamic Programmin
