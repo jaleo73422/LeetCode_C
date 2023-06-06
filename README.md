@@ -136,6 +136,13 @@
 | 0231 | Power of Two | Easy | 1)* Bitwise |
 | 0342 | Power of Four | Easy | 1)* Bitwise |
 | 0461 | Hamming Distance | Easy | 1)* Bitwise |
+| 0476 | Number Complement | Easy | 1)* Bitwise |
+| 0645 | Set Mismatch | Easy | 1)* Bitwise |
+| 0693 | Binary Number with Alternating Bits | Easy | 1)* Bitwise |
+| 0868 | Binary Gap | Easy | 1)* Bitwise |
+| 1009 | Complement of Base 10 Integer | Easy | 1)* Bitwise |
+| 1720 | Decode XORed Array | Easy | 1)* Bitwise |
+| 2367 | Number of Arithmetic Triplets | Easy | 1)* ? |
 
 ## To do
 | No. | Problem | Difficulty | Solution |
@@ -156,3 +163,4 @@
 - [Huahua’s Tech Road](https://zxi.mytechroad.com/blog/) <br/>
 - [walkccc - GitHub](https://github.com/walkccc/LeetCode) <br/>
 - [walkccc](https://walkccc.me/LeetCode/) <br/>
+- [103style - GitHub](https://github.com/103style/LeetCode) <br/>
