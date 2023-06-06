@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int hammingDistance(int x, int y){
+int hammingDistance(int x, int y) {
     int n = x ^ y;
     int count = 0;
     

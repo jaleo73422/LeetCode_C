@@ -133,6 +133,8 @@
 ## Easy
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0231 | Power of Two | Easy | 1)* Bitwise |
+| 0342 | Power of Four | Easy | 1)* Bitwise |
 | 0461 | Hamming Distance | Easy | 1)* Bitwise |
 
 ## To do
