@@ -38,6 +38,7 @@
 | 2074 | Reverse Nodes in Even Length Groups | Medium | 1)* Linked list |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
+| 2546 | Apply Bitwise Operations to Make Strings Equal | Medium | 1)* 2)* 3)* Bitwise |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
@@ -64,6 +65,7 @@
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
 | 1318 | Minimum Flips to Make a OR b Equal to c | Medium | 1)* 2) 3)* Bitwise |
+| 2546 | Apply Bitwise Operations to Make Strings Equal | Medium | 1)* 2)* 3)* Bitwise |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
