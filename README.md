@@ -18,7 +18,7 @@
 | 0137 | 137. Single Number II | Medium | 1)* 2)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
-| 0148 |  | Medium | 1) 2)* 3) 4)* 5)* Linked list |
+| 0148 | Sort List | Medium | 1) 2)* 3) 4)* 5)* Linked list |
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise |
@@ -32,8 +32,10 @@
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
 | 0509 | Fibonacci Number | Easy | 1)* Recursion <br/> 2)* Iteration <br/> 3)* Dynamic Programmin |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
+| 1318 | Minimum Flips to Make a OR b Equal to c | Medium | 1)* 2) 3)* Bitwise |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table |
 | 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
+| 2074 | Reverse Nodes in Even Length Groups | Medium | 1)* Linked list |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
@@ -61,6 +63,7 @@
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
+| 1318 | Minimum Flips to Make a OR b Equal to c | Medium | 1)* 2) 3)* Bitwise |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
@@ -91,11 +94,12 @@
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
-| 0148 |  | Medium | 1) 2)* 3) 4)* 5)* Linked list |
+| 0148 | Sort List | Medium | 1) 2)* 3) 4)* 5)* Linked list |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise |
 | 0328 | Odd Even Linked List | Medium | 1)* 2)* Linked list |
 | 0725 | Split Linked List in Parts | Medium | 1)* 2)* 3)* Linked list |
 | 1721 | Swapping Nodes in a Linked List | Medium | 1)* |
+| 2074 | Reverse Nodes in Even Length Groups | Medium | 1)* Linked list |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
 
