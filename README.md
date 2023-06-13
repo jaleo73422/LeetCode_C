@@ -3,6 +3,7 @@
 ## Order list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0002 | Add Two Numbers | Medium | 1)* 2)* 3) Linked list |
 | 0019 | Remove Nth Node From End of List | Easy | 1)* <br/> 2)* Floyd Cycle Detection Algorithm |
 | 0020 | Valid Parentheses | Easy | 1) Stack|
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
@@ -15,7 +16,7 @@
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers |
 | 0136 | Single Number | Easy | 1)* Bitwise |
-| 0137 | 137. Single Number II | Medium | 1)* 2)* Bitwise |
+| 0137 | Single Number II | Medium | 1)* 2)* Bitwise |
 | 0142 | Linked List Cycle II | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 0147 | Insertion Sort List | Medium | 1) 2)* Linked list |
 | 0148 | Sort List | Medium | 1) 2)* 3) 4)* 5)* Linked list |
@@ -38,6 +39,7 @@
 | 2074 | Reverse Nodes in Even Length Groups | Medium | 1)* Linked list |
 | 2095 | Delete the Middle Node of a Linked List | Medium | 1)* Floyd Cycle Detection Algorithm |
 | 2130 | Maximum Twin Sum of a Linked List | Medium | 1)* Reverrse linked list <br/> 2) 3)* Stack |
+| 2438 | Range Product Queries of Powers | Medium | 1)* Bitwise <br/> 2)* Bitwise + Prefix sum |
 | 2546 | Apply Bitwise Operations to Make Strings Equal | Medium | 1)* 2)* 3)* Bitwise |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
@@ -65,6 +67,7 @@
 | 0338 | Counting Bits | Easy | 1)* 3) 4)* Dynamic Programmin, Bitwise <br/> 2)* Dynamic Programmin |
 | 0371 | Sum of Two Integers | Medium | 1) Bitwise |
 | 1318 | Minimum Flips to Make a OR b Equal to c | Medium | 1)* 2) 3)* Bitwise |
+| 2438 | Range Product Queries of Powers | Medium | 1)* Bitwise <br/> 2)* Bitwise + Prefix sum |
 | 2546 | Apply Bitwise Operations to Make Strings Equal | Medium | 1)* 2)* 3)* Bitwise |
 | 2572 | Count the Number of Square-Free Subsets | Medium | 1)* 2)* Bitwise |
 | 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
@@ -90,6 +93,7 @@
 ### Linked list
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
+| 0002 | Add Two Numbers | Medium | 1)* 2)* 3) Linked list |
 | 0019 | Remove Nth Node From End of List | Easy | 1)* <br/> 2)* Floyd Cycle Detection Algorithm |
 | 0024 | Swap Nodes in Pairs | Medium | 1) 2)* Linked list |
 | 0061 | Rotate List | Medium | 1)* 2) Linked list |
@@ -116,6 +120,12 @@
 | --- | :------ | :--------- | :------- |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers 
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion |
+
+### Prefix sum
+| No. | Problem | Difficulty | Solution |
+| --- | :------ | :--------- | :------- |
+| 2438 | Range Product Queries of Powers | Medium | 1)* Bitwise <br/> 2)* Bitwise + Prefix sum |
+| 2680 | Maximum OR | Medium | 1)* Bitwise <br/> 2)* Prefix sum |
 
 ### Recursion
 | No. | Problem | Difficulty | Solution |
@@ -153,7 +163,7 @@
 ## To do
 | No. | Problem | Difficulty | Solution |
 | --- | :------ | :--------- | :------- |
-| 0137 | 137. Single Number II | Medium | 3) Bitwise ([this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/137.Single-Number-II/137.Single-Number-II_v2.cpp)) |
+| 0137 | Single Number II | Medium | 3) Bitwise ([this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/137.Single-Number-II/137.Single-Number-II_v2.cpp)) |
 | 0142 | Linked List Cycle II | Medium | 2) Hash table |
 | 0260 | Single Number III | Medium | 3) Bitwise [this](https://github.com/wisdompeak/LeetCode/blob/master/Bit_Manipulation/260.Single-Number-III/260.Single-Number-III.cpp) |
 
