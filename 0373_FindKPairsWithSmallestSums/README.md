@@ -2,8 +2,8 @@
 
 *returnColumnSizes ? <br/>
 
-## _1 
-TLE and overflow <br/>
+## C_1 Binary search
 
-## _2 Binary search
-overflow <br/>
+## Cpp_1 Priority queue
+
+## Cpp_2 Priority queue
