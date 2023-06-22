@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) {
-    for(int i = 0; i < matrixSize; i++) {
+    for(int i = 0; i < matrixSize; i++)
         if(matrix[i][0] == target || matrix[i][*matrixColSize - 1] == target)
             return 1;
         else if(matrix[i][0] < target && matrix[i][*matrixColSize - 1] > target) {
@@ -16,7 +16,6 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) 
                 else  l = m + 1;
             }
         }
-    }
 
     return 0;
 }

@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
+bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) {
     int row = -1;
    
-    for(int i = 0; i < matrixSize; i++) {
+    for(int i = 0; i < matrixSize; i++)
         if(matrix[i][*matrixColSize - 1] > target && matrix[i][0] < target) {
             row = i;
             break;
         } else if(matrix[i][*matrixColSize - 1] == target || matrix[i][0] == target)
             return 1;
-    }
    
     if(row == -1)  return 0;
-
 
     for(int i = 1; i < *matrixColSize - 1; i++) {
         if(matrix[row][i] == target)

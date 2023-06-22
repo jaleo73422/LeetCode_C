@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target){
+bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) {
     int l = 0, r = matrixSize * *matrixColSize - 1;
 
     while(l <= r) {

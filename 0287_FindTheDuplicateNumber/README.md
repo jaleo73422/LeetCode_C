@@ -1,37 +1,50 @@
 # 287. Find the Duplicate Number
 
-## _1 Floyd Cycle Detection Algorithm
+## C_1 Floyd Cycle Detection Algorithm
 
 ```
+customize a route
+
 nums[] = {3, 1, 3, 4, 2}
 
--> 3 ->  4 -> 2 ->
+3 ->  4 -> 2
+^__________|
+
+slow: 3 4 2 3
+fast: 3 2 4 3
+
 
 nums[] = {2, 4, 1, 3, 1}
 
-2 -> 1 -> 4 ->
-       ^
+2 -> 1 -> 4
+^_________|
 
-nums[] = {2, 6, 4, 1, 3, 5}
-
-2 -> 4 -> 3 -> 1 -> 6 -> 5 ->
-                      ^
+slow: 2 1 4
+fast: 2 4 4
 
 142. Linked List Cycle II
 ```
 
 [https://englishandcoding.pixnet.net/blog/post/30106939-leetcode-%E7%AD%86%E8%A8%98%EF%BC%8D287.-find-the-duplicate-number](https://englishandcoding.pixnet.net/blog/post/30106939-leetcode-%E7%AD%86%E8%A8%98%EF%BC%8D287.-find-the-duplicate-number)
 
-## _2 Indexing sort
+## C_2 Indexing sort
 Does not meet the condition: "You must solve the problem without modifying the array nums and use only constant extra space." <br/>
 
 ```
 index:     [0  1  2  3  4]
 nums:      [1, 3, 4, 2, 2]
+target:    [1, 2, 3, 4, _]
 sort nums: [1, 2, 3, 4, 2]
+
+target[i] = i + 1
+
+nums[i] != i + 1 => check if nums[i] = i + 1
+nums[i] != nums[nums[i] - 1] => check if nums[i]'s position haved right value
+                             => 1) right => continue roop
+                             => 2) wrong => put nums[i] to right position
 ```
 
-## _3 Indexing sort
+## C_3 Indexing sort
 Does not meet the condition: "You must solve the problem without modifying the array nums and use only constant extra space." <br/>
 
 ```
@@ -49,10 +62,10 @@ or
 int* sort_arr = (int*) calloc(numsSize, sizeof(int));
 ```
 
-## _4 Sort
+## C_4 Sort
 Does not meet the condition: "You must solve the problem without modifying the array nums and use only constant extra space." <br/>
 
-## _5 Binary search
+## C_5 Binary search
 
 ```
 1 3 4 2 2 
@@ -76,7 +89,7 @@ if(nums(<=M) < M) => exist missing number in [1, L], duplicated number in [M + 1
 2 3 4 4 4 or 2 3 3 3 4
 ```
 
-## _6 Bitwise
+## C_6 Bitwise
 
 ```
 nums = {1, 3, 4, 2, 2}

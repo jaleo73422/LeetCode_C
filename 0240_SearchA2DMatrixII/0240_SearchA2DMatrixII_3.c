@@ -4,11 +4,10 @@
 bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) {
     int row = matrixSize - 1, col = 0;
 
-    while(row >= 0 && col < *matrixColSize) {
+    while(row >= 0 && col < *matrixColSize)
         if(target == matrix[row][col])  return 1;
         else if(target < matrix[row][col])  row--;
         else  col++;
-    }
 
     return 0;
 }

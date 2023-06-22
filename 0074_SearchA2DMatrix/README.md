@@ -2,7 +2,8 @@
 
 can't pass 2D as funxtion argument "int** matrix" <br/>
 
-## _1 
+## C_1 
+1) find targe in which row <br/>
+2) find targe in that row <br/>
 
-## _2 Binary search
-
+## C_2 Binary search

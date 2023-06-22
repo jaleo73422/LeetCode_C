@@ -2,9 +2,6 @@
 #include <stdlib.h>
 
 int findDuplicate(int* nums, int numsSize) {
-    // int sort_arr[numsSize];
-    // memset(sort_arr, 0, numsSize * sizeof(sort_arr[0]));
-
     int* sort_arr = (int*) calloc(numsSize, sizeof(int));
 
     for(int i = 0; i < numsSize; i++) {
@@ -17,7 +14,7 @@ int findDuplicate(int* nums, int numsSize) {
     return -1;
 }
 
-int main() {
+void main() {
     // example 1
     // output = 2
     // int nums[] = {1, 3, 4, 2, 2};
@@ -29,6 +26,4 @@ int main() {
     int n = sizeof(nums) / sizeof(nums[0]);
 
     printf("%d ", findDuplicate(nums, n));
-
-    return 0;
 }

@@ -53,7 +53,7 @@
 | No. | Problem | Difficulty | C Solution | Cpp Solution |
 | --- | :------ | :--------- | :--------- | :----------- |
 | 0074 | Search a 2D Matrix | Medium | 1)* <br/> 2)* Binary search | |
-| 0240 | Search a 2D Matrix II | Medium | 1)* <br/> 2)* Binary search <br/> 3)* | |
+| 0240 | Search a 2D Matrix II | Medium | 1) <br/> 2)* Binary search <br/> 3)* | |
 | 0287 | Find the Duplicate Number | Medium | 1)* Floyd Cycle Detection Algorithm <br/> 2) 3) Indexing sort <br/> 4) <br/> 5)* Binary search <br/> 6)* Bitwise | |
 | 0373 | Find K Pairs with Smallest Sums | Medium | 1)* Binary search | 1)* 2)* Priority queue |
 
