@@ -5,7 +5,7 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode* oddEvenList(struct ListNode* head){
+struct ListNode* oddEvenList(struct ListNode* head) {
     if(head == NULL || head -> next == NULL)  return head;
 
     struct ListNode* odd_node = head;
@@ -25,6 +25,5 @@ struct ListNode* oddEvenList(struct ListNode* head){
     return head;
 }
 
-int main() {
-    return 0;
+void main() {
 }

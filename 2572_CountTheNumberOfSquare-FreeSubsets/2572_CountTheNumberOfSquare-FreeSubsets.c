@@ -10,28 +10,24 @@ int helper(int x) {
         while(x % primes[i] == 0) {
             count++;
             x /= primes[i];
-    }
+        }
 
-    if(count > 1)  return -1;          
-    else if(count == 1)
-        s += (1 << i);                    
+        if(count > 1)  return -1;          
+        else if(count == 1)
+            s += (1 << i);                    
     }
 
     return s;
 }
 
 int squareFreeSubsets(int* nums, int numsSize) {
-    int dp[1001][1024];
-    long long M = 1;
-   
-    for(int i = 1; i <= 9; i++)
-        M *= 10;
-    M += 7;
-
+    int dp[numsSize + 1][1024];
+    long long M = 1000000007;
     int res = 0;
+    memset(dp, 0, sizeof(dp));
     dp[0][0] = 1;
 
-    for(int i = 1; i <= numsSize; i++) {
+    for(int i = 1; i <= numsSize; i++)
         for(int state = 0; state < (1 << 10); state++) {
             if(nums[i - 1] == 1)
                 dp[i][state] = dp[i - 1][state] * 2 % M;
@@ -39,14 +35,13 @@ int squareFreeSubsets(int* nums, int numsSize) {
                 dp[i][state] = dp[i - 1][state];
                 int s = helper(nums[i - 1]);
 
-                if(s != -1 && (state & s) == s)                               
+                if(s != -1 && (state & s) == s)
                     dp[i][state] = (dp[i][state] + dp[i - 1][state - s]) % M;
             }
 
             if(i == numsSize)
                 res = (res + dp[i][state]) % M;
         }
-    }
 
     return (res + M - 1) % M;
 }

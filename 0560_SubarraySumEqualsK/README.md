@@ -1,6 +1,6 @@
 # 560. Subarray Sum Equals K
 
-## C_1 Prefix Sum + Hash table
+## CPP_1 Prefix Sum + Hash table
 ```
 hash table of prefix sum
 {0: 1}

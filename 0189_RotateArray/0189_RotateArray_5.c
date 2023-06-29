@@ -14,7 +14,7 @@ void reverseArray(int* arr, int start, int end) {
 
 
 void rotate(int* nums, int numsSize, int k) {
-	if (k == 0)  return;
+	if(k == 0)  return ;
 	
 	k = k % numsSize;
 
@@ -23,7 +23,7 @@ void rotate(int* nums, int numsSize, int k) {
 	reverseArray(nums, 0, numsSize - 1);
 }
 
-int main() {
+void main() {
     // example 1
     // output = {5, 6, 7, 1, 2, 3, 4}
     // int nums[] = {1, 2, 3, 4, 5, 6, 7};
@@ -39,6 +39,4 @@ int main() {
 
     for(int i = 0; i < n; i++)
         printf("%d ", nums[i]);
-
-    return 0;
 }

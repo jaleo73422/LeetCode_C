@@ -1,5 +1,8 @@
 # 190. Reverse Bits
-## _1
+C_1 is similar to C_2
+C_3 is similar to C_4
+
+## C_1
 ```c
 for(int i = 31;  i >= 0;  i--) {
     // A B C D E
@@ -7,6 +10,7 @@ for(int i = 31;  i >= 0;  i--) {
     tem >>= 31;             // 0 0 0 0 (D)
     tem <<= i;              // 0 (D) 0 0 0
     res ^= tem;             // (E D) 0 0 0
+    // or res |= tem;
 }
 ```
 
@@ -17,10 +21,10 @@ for(int i = 31;  i >= 0;  i--) {
 2  4  2   0 0 C 0 0
 1  4  1   0 0 0 B 0
 0  4  0   0 0 0 0 A
-        ^)
+  |) or ^)
 ```
 
-## _2
+## C_2
 ```c
 for(int i = 0; i < 32; i++) {
     // A B C D E
@@ -33,7 +37,6 @@ for(int i = 0; i < 32; i++) {
 ```
 
 ```
-
           E 0 0 0 0
           0 D 0 0 0
           0 0 C 0 0
@@ -42,7 +45,7 @@ for(int i = 0; i < 32; i++) {
 |) or ^)
 ```
 
-## _3
+## C_3
 ```c
 // A B C D E
 if(n & 1)  res = 1;          // 0 0 0 0 E
@@ -53,7 +56,16 @@ for(int i = 1; i < 32; i++) {
 }
 ```
 
-## _4
+```
+A B C D E
+0 0 0 0 E
+0 0 0 E D
+0 0 E D C
+0 E D C B
+E D C B A
+```
+
+## C_4
 ```c
 uint32_t res = 0;
 for (int i = 0; i < 32; i++) {
@@ -65,7 +77,16 @@ for (int i = 0; i < 32; i++) {
 }
 ```
 
-## _5 mask
+```
+A B C D E
+0 0 0 0 E
+0 0 0 E D
+0 0 E D C
+0 E D C B
+E D C B A
+```
+
+## C_5 mask
 ```c
 // do every 4 bits
 
@@ -90,4 +111,10 @@ reverse of 4 bits n = {
     0x00, 0x08, 0x04, 0x0C, 0x02, 0x0A, 0x06, 0x0E,
     0x01, 0x09, 0x05, 0x0D, 0x03, 0x0B, 0x07, 0x0F
 };
+
+ABCD EFGH IJKL
+
+0000 0000 LKJI
+0000 LKJI HGFE
+LKJI HGFE DCBA
 ```

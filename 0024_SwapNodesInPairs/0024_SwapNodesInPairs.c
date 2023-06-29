@@ -19,6 +19,5 @@ struct ListNode* swapPairs(struct ListNode* head) {
     return head;
 }
 
-int main() {
-    return 0;
+void main() {
 }

@@ -5,39 +5,38 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode* swapNodes(struct ListNode* head, int k){
+struct ListNode* swapNodes(struct ListNode* head, int k) {
     struct ListNode* replace_node;
-    struct ListNode* tem_node = head;
+    struct ListNode* cur_node = head;
     int replace_val;
     int llSizes = 0;
     int flag = 0;
 
-    while(tem_node != NULL) {
+    while(cur_node != NULL) {
         llSizes++;
-        tem_node = tem_node -> next;
+        cur_node = cur_node -> next;
     }
 
-    tem_node = head;
+    cur_node = head;
 
     for(int i = 1; i <= llSizes; i++) {
         if(i == k || i == llSizes - k + 1) {
-            if(flag) {
-                replace_node -> val = tem_node -> val;
-                tem_node -> val = replace_val;
+            if(flag) {  // i == llSizes - k + 1
+                replace_node -> val = cur_node -> val;
+                cur_node -> val = replace_val;
                 break;
-            } else {
+            } else {  // i == k
                 flag = 1;
-                replace_val = tem_node -> val;
-                replace_node = tem_node;
+                replace_val = cur_node -> val;
+                replace_node = cur_node;
             }
         }
 
-        tem_node = tem_node -> next;
+        cur_node = cur_node -> next;
     }
 
     return head;
 }
 
-int main() {
-    return 0;
+void main() {
 }

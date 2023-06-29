@@ -12,12 +12,28 @@
 retrn result[*returnSize]
 ```
 
-*nums = nums[0]<br/>
-**nums = *nums[0] = nums[0][0]<br/>
+*nums = nums[0] <br/>
+**nums = *nums[0] = nums[0][0] <br/>
 
-## _1
+## C_1
+```
+... pre, intervals[i] ...
 
-## _2
+case 1: two internals overlap
+        => intervals[i][0] <= pre[1]
+pre:       [  pre  ] ... ]
+intervals: [  ...  [ ... ]
+=>    pre: [  ...        ]
+
+case 2: two internals no overlap
+        => intervals[i][0] > pre[1]
+pre:       [  pre  ]
+intervals:          [  ...  ]
+=>    res: [  ...  ]
+
+```
+
+## C_2
 ```
 example 1:
 intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]

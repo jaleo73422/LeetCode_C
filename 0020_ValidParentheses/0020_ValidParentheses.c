@@ -20,7 +20,7 @@ bool isValid(char* s) {
     return current == 0;
 }
 
-int main() {
+void main() {
     // example 1
     // output = true
     // char s[] = "()";
@@ -38,6 +38,4 @@ int main() {
     char s[] = "{[]}";
 
     printf("%d \n", isValid(s));
-
-    return 0;
 }

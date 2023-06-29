@@ -40,6 +40,5 @@ int pairSum(struct ListNode* head) {
     return max;
 }
 
-int main() {
-   return 0;
+void main() {
 }

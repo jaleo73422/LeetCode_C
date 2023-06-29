@@ -1,3 +1,3 @@
-2074. Reverse Nodes in Even Length Groups
+# 2074. Reverse Nodes in Even Length Groups
 
-## _1 
+## C_1 Linled list

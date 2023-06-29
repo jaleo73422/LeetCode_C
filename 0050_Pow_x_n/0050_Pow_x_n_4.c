@@ -1,23 +1,26 @@
 #include <stdio.h>
 
+double helper(double x, long int power) {
+    if(power == 0)  return 1;
+    if(power == 1)  return x;
+    
+    double base = 1;
+    if(power % 2 == 1)  base = x;
+    
+    double tem = helper(x, power / 2);
+    
+    return tem * tem * base;
+}
+
 double myPow(double x, int n) {
-    double res = 1;
-    int tem = n / 2;
+    long int p = n;
 
     if(n < 0) {
+        p = -p;
         x = 1 / x;
-        tem = -tem;
     }
-
-    if(n & 1)  res = x;
-
-    while(tem != 0) {
-        x *= x;
-        if(tem & 1)  res *= x;
-        tem /= 2;
-    }
-
-    return res;
+    
+    return helper(x, p);
 }
 
 void main() {

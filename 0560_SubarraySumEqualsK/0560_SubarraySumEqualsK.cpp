@@ -14,7 +14,7 @@ public:
         
         for(int &i : nums) {
             sums += i;
-            if (prefixs.count(sums - k))
+            if(prefixs.count(sums - k))
                 counts += prefixs[sums - k];
             prefixs[sums]++;
         }

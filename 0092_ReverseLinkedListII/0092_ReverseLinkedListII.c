@@ -5,7 +5,7 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode* reverseBetween(struct ListNode* head, int left, int right){
+struct ListNode* reverseBetween(struct ListNode* head, int left, int right) {
     if(left == right)  return head;
 
     struct ListNode* new_head = head;
@@ -37,6 +37,5 @@ struct ListNode* reverseBetween(struct ListNode* head, int left, int right){
     else  return head;
 }
 
-int main() {
-   return 0;
+void main() {
 }

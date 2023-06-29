@@ -1,3 +1,5 @@
 # 1721. Swapping Nodes in a Linked List
 
-## _1 
+## C_1 Linked list
+
+## C_2 Linked list

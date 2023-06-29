@@ -18,7 +18,6 @@ struct ListNode* split(struct ListNode* head, int step) {
     return head2;
 }
 
-
 struct ListNode* merge(struct ListNode* tail, struct ListNode* head1, struct ListNode* head2) {
     struct ListNode* sorted_node = tail;
 
@@ -36,12 +35,11 @@ struct ListNode* merge(struct ListNode* tail, struct ListNode* head1, struct Lis
 
     sorted_node -> next = (head1 != NULL) ? head1 : head2;
 
-    while (sorted_node->next != NULL)
-        sorted_node = sorted_node->next;
+    while(sorted_node -> next != NULL)
+        sorted_node = sorted_node -> next;
 
     return sorted_node;
 }
-
 
 struct ListNode* sortList(struct ListNode* head) {
     if(head == NULL || head->next == NULL)

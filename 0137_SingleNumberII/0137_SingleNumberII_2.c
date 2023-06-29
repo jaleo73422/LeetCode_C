@@ -3,18 +3,15 @@
 
 int singleNumber(int* nums, int numsSize){
     int res = 0;
-    int tem;
     
     for(int i = 0; i < 32; i++) {
         int digitSum = 0;
 
-        for(int j = 0; j < numsSize; j++) {
-            tem = nums[j] >> 31 - i;
+        for(int j = 0; j < numsSize; j++)
             digitSum += (nums[j] >> 31 - i) & 1;
-        }
 
         if(digitSum % 3)
-            res += (uint32_t)1 << (31 - i);
+            res += (uint32_t) 1 << (31 - i);
     }
 
     return res;

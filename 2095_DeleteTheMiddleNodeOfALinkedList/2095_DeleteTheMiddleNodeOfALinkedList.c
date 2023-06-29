@@ -24,6 +24,6 @@ struct ListNode* deleteMiddle(struct ListNode* head){
     return head;
 }
 
-int main() {
+void main() {
     return 0;
 }

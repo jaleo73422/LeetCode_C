@@ -1,23 +1,17 @@
 #include <stdio.h>
 
 double myPow(double x, int n) {
-    double res = 1;
-    int tem = n / 2;
+    double res = 0;
 
-    if(n < 0) {
-        x = 1 / x;
-        tem = -tem;
-    }
+    if(n == 0)  return 1;
+    if(n == 1)  return x;
+    if(n == -1)  return 1 / x;
 
-    if(n & 1)  res = x;
-
-    while(tem != 0) {
-        x *= x;
-        if(tem & 1)  res *= x;
-        tem /= 2;
-    }
-
-    return res;
+    res = myPow(x, n / 2);
+    
+    if(n % 2 == 1)  return res * res * x;
+    else if(n % 2 == 0)  return res * res;
+    else return  res * res / x;
 }
 
 void main() {

@@ -1,41 +1,32 @@
 # 725. Split Linked List in Parts
 
-## _1 
+## C_1 Linked list
 ```
 case 1: llSizes < k
-llSizes parts * arr[1]
-k - llSizes parts * arr[0]
+(llSizes parts) * 1
+(k - llSizes parts) * 0 (NULL)
 
 case 2: llSizes == k
-k parts * arr[1]
+(k parts) * 1
 
 case 3: llSizes > k
 3.1 llSizes % k == 0
-    k parts * arr[llSizes / k]
+    (k parts) * (llSizes / k)
 3.2 llSizes % k != 0
-    (llSizes % k) parts * arr[llSizes / k + 1]
-    (k - llSizes % k) parts * arr[llSizes / k]
+    ((llSizes % k) parts) * (llSizes / k + 1)
+    ((k - llSizes % k) parts) * (llSizes / k)
 ```
 
-## _2 
+## C_2 Linked list
 simplify solution 1 <br/>
-combine 3 case of solutions <br/>
-```
-baseCount: element numbers of no+1 parts
-count: element numbers
-    +1: count++ = no+1++ = baseCount++
-    no+1: baseCount
-
-extraCount: parts numbers of +1
-k - extraCount: parts numbers of no+1
-```
+combine 3 case of solution 1 <br/>
 
 ```
-extraCount parts * arr[baseCount + 1]
-+ (k - extraCount) parts * arr[baseCount]
+(extraCount parts) * (baseCount + 1)
+((k - extraCount) parts) * (baseCount)
 ```
 
-## _3 
+## C_3 Linked list
 ```
 dummy node + length array + memset()
 

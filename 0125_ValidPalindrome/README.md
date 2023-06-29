@@ -1,5 +1,5 @@
 # 125. Valid Palindrome
-## _1
+## C_1
 Alphanumeric characters are any combination of letters (A-Z, a-z) and numbers (0-9). <br/>
 
 ASCII:<br/>
@@ -9,4 +9,4 @@ a = 97, z = 122<br/>
 
 Simplified by isalnum() and tolower() in ctype.h.<br/>
 
-## _2 Two Pointers
+## C_2 Two Pointers

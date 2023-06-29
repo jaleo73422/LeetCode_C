@@ -5,19 +5,17 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode* rotateRight(struct ListNode* head, int k){
+struct ListNode* rotateRight(struct ListNode* head, int k) {
     if(!head)  return NULL;
 
     struct ListNode* last = head;
     struct ListNode* new_head = head;
     struct ListNode* secLast;
-    int llSize = 0;
+    int llSize = 1;
     int rotateTime;
 
-    while(last != NULL) {
+    while(last = last -> next)
         llSize++;
-        last = last -> next;
-    }
 
     rotateTime = k % llSize;
 
@@ -38,6 +36,5 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     return new_head;
 }
 
-int main() {
-   return 0;
+void main() {
 }

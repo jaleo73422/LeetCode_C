@@ -1,46 +1,36 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-struct ListNode {
-    int val;
-    struct ListNode *next;
+struct Node {
+    int data;
+    struct Node* next;
 };
 
-void stackPush(struct ListNode** head, int val) {
-    struct ListNode* new_node = (struct ListNode*) malloc(sizeof(struct ListNode));
+struct Node* newNode(int val) {
+    struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
 
-    new_node -> val = val;
+    new_node -> data = val;
     new_node -> next = NULL;
-
-    if((*head) != NULL) {
-        struct ListNode* last = *head;
-
-        while(last -> next != NULL)
-            last = last -> next;
-
-        last -> next = new_node;
-    } else  *head = new_node;
+    
+    return new_node;
 }
 
-int stackPop(struct ListNode** head) {
-    if((*head) -> next == NULL) {
-        int tem = (*head) -> val;
-        *head = NULL;
-        return tem;
-    }
+void stackPush(struct Node** head, int val) {
+    struct Node* new_node = newNode(val);
 
-    struct ListNode* secLast = *head;
-
-    while(secLast -> next -> next != NULL)
-        secLast = secLast -> next;
-
-    int tem = secLast -> next -> val;
-    free(secLast -> next);
-
-    secLast -> next = NULL;
-
-    return tem;
+    new_node -> next = *head;
+    *head = new_node;
 }
 
+int stackPop(struct Node** head) {    
+    struct Node* tem_node = *head;
+    *head = (*head) -> next;
+    
+    int popVal = tem_node -> data;
+    free(tem_node);
+    
+    return popVal;
+}
 
 int pairSum(struct ListNode* head) {
     struct ListNode* list1 = head;
@@ -75,6 +65,5 @@ int pairSum(struct ListNode* head) {
     return max;
 }
 
-int main() {
-   return 0;
+void main() {
 }

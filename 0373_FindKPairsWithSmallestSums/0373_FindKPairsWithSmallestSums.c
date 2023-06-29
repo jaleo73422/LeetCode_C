@@ -7,8 +7,8 @@ long countSmallerOrEqual(int val, int* nums1, int nums1Size, int* nums2, int num
     
     for(int i = 0; i < nums1Size; i++) {
         while(j >= 0 && nums1[i] + nums2[j] > val)
-            j--;
-        res += j + 1;
+            j--;  // index
+        res += j + 1;  // count number
     }
 
     return res;
@@ -31,7 +31,7 @@ int** kSmallestPairs(int* nums1, int nums1Size, int* nums2, int nums2Size, int k
     int res_idx = 0;
     *returnColumnSizes = (int*) malloc(k * sizeof(int));
 
-     for(int i = 0; i < nums1Size; i++)
+    for(int i = 0; i < nums1Size; i++)
         for(int j = 0; j < nums2Size && nums1[i] + nums2[j] < target_sum; j++) {
             res[res_idx] = (int*) malloc(2 * sizeof(int));
             res[res_idx][0] = nums1[i];

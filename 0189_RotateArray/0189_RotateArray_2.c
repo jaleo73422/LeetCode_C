@@ -6,14 +6,14 @@ void rotate(int* nums, int numsSize, int k) {
     for(int i = 0; i < times; i++) {
         int tem = nums[numsSize - 1];
 
-        for(int i = numsSize - 1; i > 0; i--)
-            nums[i] = nums[i - 1];
+        for(int j = numsSize - 1; j > 0; j--)
+            nums[j] = nums[j - 1];
 
         nums[0] = tem;
     }
 }
 
-int main() {
+void main() {
     // example 1
     // output = {5, 6, 7, 1, 2, 3, 4}
     // int nums[] = {1, 2, 3, 4, 5, 6, 7};
@@ -34,6 +34,4 @@ int main() {
 
     for(int i = 0; i < n; i++)
         printf("%d ", nums[i]);
-
-    return 0;
 }

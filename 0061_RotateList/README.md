@@ -1,16 +1,31 @@
-# 57. Rotate List
+# 61. Rotate List
 
-## _1
+## C_1
 ```
 Rotate (k % llSize) times directly
 
 A -> B -> C -> D   ->   E -> NULL
 ^              ^        ^
 new_head       secLast  last
+
+rotate
+E -> A -> B -> C   ->   D -> NULL
+^                       ^
+new_head                secLast
+last
 ```
 
-## _2
+## C_2
 ```
+find whole part of rotate
+rotate 1 time
+
+ex.
+1 -> 2 -> 3 -> 4 -> 5 -> NULL
+k = 2
+1 -> 2 -> 3 -> (4 -> 5) -> NULL
+rotate => (4 -> 5) -> 1 -> 2 -> 3 -> NULL
+
 k = 2
 A -> B -> C -> D -> E -> NULL
                     ^

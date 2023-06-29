@@ -15,7 +15,7 @@ int findDuplicate(int* nums, int numsSize) {
     return -1;
 }
 
-int main() {
+void main() {
     // example 1
     // output = 2
     // int nums[] = {1, 3, 4, 2, 2};
@@ -27,6 +27,4 @@ int main() {
     int n = sizeof(nums) / sizeof(nums[0]);
 
     printf("%d ", findDuplicate(nums, n));
-
-    return 0;
 }

@@ -13,12 +13,10 @@ int* singleNumber(int* nums, int numsSize, int* returnSize) {
 
     lowestBit1 = allXOr & (-(unsigned)allXOr);
 
-    for(int i = 0; i < numsSize; i++) {
+    for(int i = 0; i < numsSize; i++)
         if(nums[i] & lowestBit1)
             res[1] ^= nums[i];
-        else
-            res[0] ^= nums[i];
-    }
+        else  res[0] ^= nums[i];
 
     return res;
 }

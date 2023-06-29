@@ -28,6 +28,5 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     return dummy.next;
 }
 
-int main() {
-   return 0;
+void main() {
 }

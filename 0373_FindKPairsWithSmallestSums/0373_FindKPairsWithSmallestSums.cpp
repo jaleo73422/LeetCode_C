@@ -8,7 +8,7 @@ struct T {
     int i;
     int j;
     int sum;
-    T(int i, int j, int sum) : i(i), j(j), sum(sum) {}
+    T(int i, int j, int sum) : i(i), j(j), sum(sum) {}  // for priority_queue
 };
 
 class Solution {
@@ -30,7 +30,7 @@ public:
         }
 
         return res;
-  }
+    }
 };
 
 int main() {

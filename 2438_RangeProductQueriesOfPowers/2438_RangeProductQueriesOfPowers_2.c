@@ -20,10 +20,9 @@ int* productQueries(int n, int** queries, int queriesSize, int* queriesColSize, 
     }
 
     int prefix_pow[powerSize];
-    for(int i = 0; i < powerSize; i++) {
+    for(int i = 0; i < powerSize; i++)
         if(i == 0)  prefix_pow[i] = power[i];
         else  prefix_pow[i] = prefix_pow[i - 1] + power[i];
-    }
 
     int pow2[30 * 30] = {1};
     for(int i = 1; i < 30 * 30; i++)

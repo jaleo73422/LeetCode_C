@@ -9,7 +9,7 @@ bool isPalindrome(char* s) {
     for(int i = 0; i < sSize; i++) {
         if(48 <= s[i] && s[i] <= 57)
             valid[vSize++] = s[i];
-        if(65 <= s[i] && s[i] <= 90 || 97 <= s[i] && s[i]  <= 122)
+        if((65 <= s[i] && s[i] <= 90) || (97 <= s[i] && s[i]  <= 122))
             valid[vSize++] = s[i] - 96 > 0 ? s[i] : s[i] + 32;
     }
 
@@ -20,7 +20,7 @@ bool isPalindrome(char* s) {
     return 1;
 }
 
-int main() {
+void main() {
     // example 1
     // output = true
     // char s[] = "A man, a plan, a canal: Panama";
@@ -38,6 +38,4 @@ int main() {
     char s[] = "0P";
 
     printf("%d \n", isPalindrome(s));
-
-    return 0;
 }

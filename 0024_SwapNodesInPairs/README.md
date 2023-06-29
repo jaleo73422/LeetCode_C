@@ -1,25 +1,48 @@
 # 24. Swap Nodes in Pairs
 
-## _1
+## C_1
 This solution modifies the values in the list's nodes. <br/>
 
-## _2
+## C_2
 dummy is a node. <br/>
 pre is a pointer to dummy. <br/>
 
 ```
+pre -> f -> s -> node
+
+step 1:
+pre -> s -> node
+f -> s -> node
+
+step 2:
+pre -> s -> node
+f -> node
+
+step 3:
+pre -> s -> f -> node
+
+step 4:
+s -> f -> node
+     ^
+     pre
+
+
 pre -> A -> B -> C -> D -> NULL
        f    s
 
 step 1:
-pre -> B -> C -> D -> NULL
-       A -> C -> D -> NULL
+pre -> B(s) -> C -> D -> NULL
+       A(f) -> B -> C -> D -> NULL
 
 step 2:
-pre -> B -> A -> C -> D -> NULL
+pre -> B(s) -> C -> D -> NULL
+A(f) -> C -> D -> NULL
 
 step 3:
-B -> A -> C -> D -> NULL
-     ^    ^    ^
-     pre  f    s
+pre -> B(s) -> A(f) -> C -> D -> NULL
+
+step 4:
+B(s) -> A(f) -> C -> D -> NULL
+        ^
+        pre
 ```

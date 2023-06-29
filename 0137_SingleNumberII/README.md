@@ -1,26 +1,27 @@
 # 137. Single Number II
 
-## _1 Bitwise
+## C_1 Bitwise
 ```
-ones = (ones ^ nums[i]) & ~twos;
-twos = (twos ^ nums[i]) & ~ones;
+Step 1: put nums[i] in ones
+Step 2: if nums[i] has existed in ones => cancel step 1
+ones = ones ^ nums[i]
 
-case 1:
+Step 3: if nums[i] has existed in twos => cancel step 1
+ones = ones & ~twos
+
+Step 4: do the same as the ones' 3 steps for twos
+twos = (twos ^ nums[i]) & ~ones
+
+
+case 1: first appear
 nums[i] not in ones and twos => put in ones
-ones = (a ^ nums[i]) & ~b = (1 & 1) = a ^ nums[i]
-twos = (b ^ nums[i]) & ~ones = (1 & 0) = b
 
-case 2:
+case 2: second appear
 nums[i] in ones => remove from ones and put in twos
-ones = (a ^ nums[i]) & ~b = (0 & 1) = a
-twos = (b ^ nums[i]) & ~ones = (1 & 1) = b ^ nums[i]
 
-case 3:
+case 3: thied appear
 nums[i] in twos => remove from twos
-ones = (a ^ nums[i]) & ~b = (1 & 0) = a
-twos = (b ^ nums[i]) & ~ones= (0 & 1) = b
-
 ```
 
-## _2 Bitwise
-sum of each bit % 3 = bit of single number <br/>
+## C_2 Bitwise
+bit1's sum of each bit % 3 = bit of single number <br/>

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fib(int n){
+int fib(int n) {
     if(n == 0)  return 0;
     
     int* dp = (int*) calloc(n + 1, sizeof(int));
@@ -13,7 +13,7 @@ int fib(int n){
     return dp[n];
 }
 
-int main() {
+void main() {
     // example 1
     // output = 1
     // int n = 2;
@@ -31,6 +31,4 @@ int main() {
     int n = 0;
 
     printf("%d \n", fib(n));
-
-    return 0;
 }

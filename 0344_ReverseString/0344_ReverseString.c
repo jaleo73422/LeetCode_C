@@ -6,7 +6,7 @@ void swap(char* a, char* b) {
     *b = tem;
 }
 
-void reverseString(char* s, int sSize){
+void reverseString(char* s, int sSize) {
     for(int i = 0; i < sSize / 2; i++)
         swap(&s[i], &s[sSize - 1 - i]);
 }

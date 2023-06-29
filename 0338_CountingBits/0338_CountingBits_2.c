@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* countBits(int n, int* returnSize){
+int* countBits(int n, int* returnSize) {
     int offset = 1;
     int* result = (int*) malloc((n + 1) * sizeof(int));
     // *returnSize = n + 1;
@@ -17,7 +17,7 @@ int* countBits(int n, int* returnSize){
     return result;
 }
 
-int main() {
+void main() {
     // example 1
     // output = {0, 1, 1}
     // int n = 2;
@@ -31,6 +31,4 @@ int main() {
 
     for(int i = 0; i <= n; i++)
         printf("%d ", result[i]);
-
-    return 0;
 }

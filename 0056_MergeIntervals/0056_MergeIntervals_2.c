@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int cmp(const void* a, const void* b) {
-    if(**(int**)a != **(int**)b)  return **(int**)a - **(int**)b;
-    else  return (*(int**)b)[1] - (*(int**)a)[1];
+    if(**(int**) a != **(int**) b)  return **(int**) a - **(int**) b;
+    else  return (*(int**) b)[1] - (*(int**) a)[1];
 }
 
-int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes){
+int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* returnSize, int** returnColumnSizes) {
     *returnColumnSizes = malloc(sizeof(int) * intervalsSize);
     *returnSize = 0;
 
@@ -42,6 +42,5 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     return result;
 }
 
-int main() {
-   return 0;
+void main() {
 }

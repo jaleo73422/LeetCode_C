@@ -2,15 +2,15 @@
 #include <string.h>
 #include <ctype.h>
 
-bool isPalindrome(char* s){
+bool isPalindrome(char* s) {
     int sSize = strlen(s);
     int i = 0, j = sSize - 1;
     
-    while (i < j) {
-        while (i < j && !isalnum(s[i])) i++;
-        while (i < j && !isalnum(s[j])) j--;
+    while(i < j) {
+        while(i < j && !isalnum(s[i])) i++;
+        while(i < j && !isalnum(s[j])) j--;
 
-        if (tolower(s[i]) != tolower(s[j]))
+        if(tolower(s[i]) != tolower(s[j]))
             return false;
 
         i++;
@@ -20,7 +20,7 @@ bool isPalindrome(char* s){
     return true;
 }
 
-int main() {
+void main() {
     // example 1
     // output = true
     // char s[] = "A man, a plan, a canal: Panama";
@@ -38,6 +38,4 @@ int main() {
     // char s[] = "0P";
 
     printf("%d \n", isPalindrome(s));
-
-    return 0;
 }

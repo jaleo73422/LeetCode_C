@@ -1,6 +1,6 @@
-# 2572. Count the Number of Square-Free Subsets
+# 2546. Apply Bitwise Operations to Make Strings Equal
 
-## _1, _2, _3
+## C_1 C_2 C_3 Bitwise
 ```
 a b =>
 0 1 => 1 1
@@ -13,10 +13,11 @@ a    b    a ^ b  a | b
 1    1    0      1 -> case2
 0    1    1      1 -> case1
 
-if (s[i], t[i]) = (1, 1) not exist
-return false
-but (1, 1) come from case1 (1, 0)
-if ((1 in a) and (1 in b)) or (a equal to b)
-return ture
+Case 1: s == target => return true
+Case 2: if there are any bit1 exist in s 
+        => change 0 to 1 or 1 to 0, 
+        but if all change is 1 to 0 (target no any 1)
+        => there is a 1 cann't change to 1 in s, 
+        because others 1 is changed to 0, no any 1 can help it
 ```
 

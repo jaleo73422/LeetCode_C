@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-bool isAnagram(char* s, char* t){
+bool isAnagram(char* s, char* t) {
     int sSize = strlen(s), tSize = strlen(t);
 
     if(sSize != tSize)  return 0;
@@ -14,15 +14,14 @@ bool isAnagram(char* s, char* t){
         hash_t[t[i] - 'a']++;
     }
     
-    for(int i = 0; i < 26; i++) {
+    for(int i = 0; i < 26; i++)
         if(hash_s[i] != hash_t[i])
             return 0;
-    }
 
     return 1;
 }
 
-int main() {
+void main() {
     // example 1
     // output = true
     char s[] = "anagram";
@@ -39,6 +38,4 @@ int main() {
     // char t[] = "tare";
 
     printf("%d \n", isAnagram(s, t));
-
-    return 0;
 }

@@ -3,7 +3,7 @@
 #include <string.h>
 
 int cmp(const void* a, const void* b) {
-    return *(char*)a - *(char*)b;
+    return *(char*) a - *(char*) b;
 }
 
 bool isAnagram(char* s, char* t){
@@ -17,7 +17,7 @@ bool isAnagram(char* s, char* t){
     return strcmp(s, t) == 0;
 }
 
-int main() {
+void main() {
     // example 1
     // output = true
     // char s[] = "anagram";
@@ -34,6 +34,4 @@ int main() {
     char t[] = "tare";
 
     printf("%d \n", isAnagram(s, t));
-
-    return 0;
 }

@@ -1,25 +1,11 @@
-# 2130. Maximum Twin Sum of a Linked List
+# 2. Add Two Numbers
 
-## _1 Reverrse linked list
+## C_1 Linked list
+put l1 + l2 in new node <br/>
 
-```
-step 1: Divide the linked list into two parts - list1 and list2
-fast and slow pointer
+## C_2  Linked list
+put l1 + l2 in l1 node <br/>
 
-step 2:
-list2 is the reversing linked list of the second half of the original linked list.
-```
-
-## _2 Stack by linked list
-TLE <br/>
-
-```
-step 1: Divide the linked list into two parts - list1 and list2
-fast and slow pointer
-
-step 2:
-list2 is the stack of the second half of the original linked list.
-```
-
-## _3 Stack by array
-Same as solution 2. <br/>
+## C_3  Linked list
+put l1 + l2 in new node <br/>
+condensed version of the C_1 <br/>

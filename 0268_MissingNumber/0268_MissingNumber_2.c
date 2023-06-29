@@ -10,7 +10,7 @@ int missingNumber(int* nums, int numsSize){
     return res;
 }
 
-int main() {
+void main() {
     // example 1
     // output = 2
     // int nums[] = {3, 0, 1};
@@ -26,6 +26,4 @@ int main() {
     int n = sizeof(nums) / sizeof(nums[0]);
 
     printf("%d ", missingNumber(nums, n));
-
-    return 0;
 }

@@ -45,6 +45,5 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     return l1;
 }
 
-int main() {
-   return 0;
+void main() {
 }

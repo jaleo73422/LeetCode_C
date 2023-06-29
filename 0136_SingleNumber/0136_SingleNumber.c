@@ -3,16 +3,13 @@
 int singleNumber(int* nums, int numsSize){    
     int res = nums[0];
 
-
     for(int i = 1; i < numsSize; i++)
         res ^= nums[i];
-
 
     return res;
 }
 
-
-int main() {
+void main() {
     // example 1
     // output = 1
     // int nums[] = {2, 2, 1};
@@ -28,6 +25,4 @@ int main() {
     int n = sizeof(nums) / sizeof(nums[0]);
 
     printf("%d ", singleNumber(nums, n));
-
-    return 0;
 }

@@ -1,10 +1,13 @@
 # 19. Remove Nth Node From End of List
 
-## _1 
+## C_1 Linkedlist
 
-## _2 Floyd Cycle Detection Algorithm
-fast is n steps ahead of slow <br/>
-fast run n steps first slow and then start <br/>
+## C_2 Floyd Cycle Detection Algorithm
+At the beginning fast is ahead of slow n steps, <br/>
+fast and slow move together <br/>
+when fast reaches the end (NULL), <br/>
+slow will be behind fast n steps <br/>
+=> slow is target
 
 fast is second <br/>
 slow is first <br/>

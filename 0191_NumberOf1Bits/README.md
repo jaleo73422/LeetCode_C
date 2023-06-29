@@ -1,3 +1,4 @@
 # 191. Number of 1 Bits
 
-## _1 Bitwise
+## C_1 Bitwise
+n & (n - 1) => eliminate last bit 1 of n

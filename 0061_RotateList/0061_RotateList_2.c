@@ -33,6 +33,5 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     return new_head;
 }
 
-int main() {
-   return 0;
+void main() {
 }

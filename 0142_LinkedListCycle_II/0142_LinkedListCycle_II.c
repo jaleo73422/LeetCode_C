@@ -33,6 +33,5 @@ struct ListNode *detectCycle(struct ListNode *head) {
     return NULL;
 }
 
-int main() {
-    return 0;
+void main() {
 }

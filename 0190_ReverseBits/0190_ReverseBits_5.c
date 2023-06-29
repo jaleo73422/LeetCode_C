@@ -18,7 +18,7 @@ uint32_t reverseBits(uint32_t n) {
 }
 
 
-int main() {
+void main() {
     // example 1
     // output = 964176192 (00111001011110000010100101000000)
     // uint32_t num = 43261596; // 00000010100101000001111010011100
@@ -28,5 +28,4 @@ int main() {
     uint32_t num = 4294967293; // 11111111111111111111111111111101
 
     printf("%u \n", reverseBits(num));
-    return 0;
 }

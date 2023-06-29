@@ -65,28 +65,12 @@ int* sort_arr = (int*) calloc(numsSize, sizeof(int));
 ## C_4 Sort
 Does not meet the condition: "You must solve the problem without modifying the array nums and use only constant extra space." <br/>
 
-## C_5 Binary search
+## C_5 Binary search (CSE)
 
 ```
-1 3 4 2 2 
-numsSize = 5
-nums(duplicated number) > nums(missing numbers)
-
-1 2 3 4
-^ ^     ^
-L M   R
-
-if(nums(<=M) > M) => duplicated number in [L, M]
-1 (2) 3 4
-1 1 2 3 4 or 1 2 2 3 4
-
-if(nums(<=M) == M) => no missing number in [1, L], duplicated number in [M + 1, R]
-1 (2) 3 4
-1  2 3 3 4 or 1 2 3 4 4
-
-if(nums(<=M) < M) => exist missing number in [1, L], duplicated number in [M + 1, R]
-1 (2) 3 4
-2 3 4 4 4 or 2 3 3 3 4
+nums:  [1, 3, 4, 2, 2]
+m:     [1  2  3  4]
+count: [1, 3 ...]
 ```
 
 ## C_6 Bitwise
@@ -100,10 +84,10 @@ n: 1 ~ 4
                 2 = 010
                 3 = 011
                 4 = 100
-bit_1_n =       122
+bit_1_n =           122 <= [1, 2, 3, 4]
 
                 2 = 010
-bit_1_nums = 132 
+bit_1_nums =        132 <= [1, 2, 3, 4, 2] 
 
               res = 010
 ```

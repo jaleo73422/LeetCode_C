@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-void swap(int* arr, int fi, int si, int times) {
-	int tem;
-	
+void swap(int* arr, int fi, int si, int times) {	
 	for(int i = 0; i < times; i++) {
-		tem = arr[fi + i];
+		int tem = arr[fi + i];
 		arr[fi + i] = arr[si + i];
 		arr[si + i] = tem;
 	}
@@ -21,8 +19,7 @@ void rotate(int* nums, int numsSize, int k) {
 		if(first_n < second_n) {
 			swap(nums, numsSize - k - first_n, numsSize - k - first_n + second_n, first_n);
 			second_n -= first_n;
-		}
-		else {
+		}else {
 			swap(nums, numsSize - k - first_n, numsSize - k, second_n);
 			first_n -= second_n;
 		}
@@ -31,7 +28,7 @@ void rotate(int* nums, int numsSize, int k) {
 	swap(nums, numsSize - k - first_n, numsSize - k, first_n);
 }
 
-int main() {
+void main() {
     // example 1
     // output = {5, 6, 7, 1, 2, 3, 4}
     // int nums[] = {1, 2, 3, 4, 5, 6, 7};
@@ -52,6 +49,4 @@ int main() {
 
     for(int i = 0; i < n; i++)
         printf("%d ", nums[i]);
-
-    return 0;
 }

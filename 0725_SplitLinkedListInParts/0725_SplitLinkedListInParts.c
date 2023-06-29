@@ -6,7 +6,7 @@ struct ListNode {
     struct ListNode *next;
 };
 
-struct ListNode** splitListToParts(struct ListNode* head, int k, int* returnSize){
+struct ListNode** splitListToParts(struct ListNode* head, int k, int* returnSize) {
     int llSizes = 0;
     struct ListNode* count_node = head;
     struct ListNode** result_node = (struct ListNode**) malloc(sizeof(struct ListNode*) * k);
@@ -88,6 +88,5 @@ struct ListNode** splitListToParts(struct ListNode* head, int k, int* returnSize
     return result_node;
 }
 
-int main() {
-   return 0;
+void main() {
 }

@@ -45,6 +45,5 @@ struct ListNode** splitListToParts(struct ListNode* head, int k, int* returnSize
     return result;
 }
 
-int main() {
-   return 0;
+void main() {
 }
