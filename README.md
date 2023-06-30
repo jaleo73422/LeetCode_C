@@ -12,7 +12,6 @@
 | 0057 | Insert Interval | Medium | 1)* | | |
 | 0061 | Rotate List | Medium | 1)* 2)* Linked list | | |
 | 0074 | Search a 2D Matrix | Medium | 1)* <br/> 2)* Binary search | | |
-| 0240 | Search a 2D Matrix II | Medium | 1)* <br/> 2)* Binary search <br/> 3)* | | |
 | 0092 | Reverse Linked List II | Medium | 1)* 2)* Linked list | | |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers | | |
 | 0136 | Single Number | Easy | 1)* Bitwise | | |
@@ -23,6 +22,7 @@
 | 0189 | Rotate Array | Medium | 1)* <br/> 2) <br/> 3) Block swap algorithm <br/> 4) Juggling algorith <br/> 5)* Reversal algorithm | | |
 | 0190 | Reverse Bits | Easy | 1)* 2)* 3) 4) Bitwise <br/> 5) Bitwise + mask | | |
 | 0191 | Number of 1 Bits | Easy | 1)* Bitwise | | (<)338 |
+| 0240 | Search a 2D Matrix II | Medium | 1)* <br/> 2)* Binary search <br/> 3)* | | |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 3)* 4)* Hash table | | |
 | 0260 | Single Number III | Medium | 1)* 2)* Bitwise | | |
 | 0268 | Missing Number | Easy | 1)* Bitwise <br/> 2)*| | |
