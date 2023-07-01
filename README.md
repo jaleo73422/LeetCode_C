@@ -3,6 +3,7 @@
 ## Order list
 | No. | Problem | Difficulty | C Solution | Cpp Solution | Type |
 | --- | :------ | :--------- | :--------- | :----------- | :--- |
+| 0001 | Two Sum | Easy | 1)* Two pointers | 1)* Hash table | |
 | 0002 | Add Two Numbers | Medium | 1)* 2)* 3)* Linked list | | |
 | 0019 | Remove Nth Node From End of List | Easy | 1)* Linked list <br/> 2)* Floyd Cycle Detection Algorithm | | |
 | 0020 | Valid Parentheses | Easy | 1)* Stack| | |
@@ -84,6 +85,7 @@
 ### Hash table
 | No. | Problem | Difficulty | C Solution | Cpp Solution | Type |
 | --- | :------ | :--------- | :--------- | :----------- | :--- |
+| 0001 | Two Sum | Easy | 1)* Two pointers | 1)* Hash table | |
 | 0242 | Valid Anagram | Easy | 1)* Sort array <br/> 2)* 3)* 4)* Hash table | | |
 | 0560 | Subarray Sum Equals K | Medium | | 1)* Prefix Sum + Hash table | |
 | 1636 | Sort Array by Increasing Frequency | Easy | 1)* Hash table | | |
@@ -127,6 +129,7 @@
 ### Pointers
 | No. | Problem | Difficulty | C Solution | Cpp Solution | Type |
 | --- | :------ | :--------- | :--------- | :----------- | :--- |
+| 0001 | Two Sum | Easy | 1)* Two pointers | 1)* Hash table | |
 | 0125 | Valid Palindrome | Easy | 1)* <br/> 2)* Two Pointers | | |
 | 0344 | Reverse String | Easy | 1)* <br/> 2)* Two Pointers <br/> 3) Recursion | | |
 
